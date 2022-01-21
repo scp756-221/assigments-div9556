@@ -122,7 +122,7 @@ def delete_song(music_id):
 @bp.route('/test', methods=['GET'])
 def test():
     # This value is for user scp756-221
-    if ('1e0715252b48ed14858ae1ce646d67195183ffb8f9dc02d73c82323d8d75f482' !=
+    if ('4369a7c80e2ed37c08c62b043750a3eed8974af9f0bd7da28e3b0f412489637c' !=
             ucode):
         raise Exception("Test failed")
     return {}
